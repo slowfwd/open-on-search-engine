@@ -1,7 +1,7 @@
 {
   "name": "open-on-search-engine",
   "main": "./lib/open-on-search-engine",
-  "version": "0.0.0",
+  "version": "0.1.0",
   "description": "Opens a search engine in your browser",
   "activationEvents": [
     "open-on-search-engine:search-duck-duck-go",
@@ -15,6 +15,5 @@
   "engines": {
     "atom": ">0.50.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
