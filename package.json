@@ -1,0 +1,20 @@
+{
+  "name": "open-on-search-engine",
+  "main": "./lib/open-on-search-engine",
+  "version": "0.0.0",
+  "description": "Opens a search engine in your browser",
+  "activationEvents": [
+    "open-on-search-engine:search-duck-duck-go",
+    "open-on-search-engine:search-github",
+    "open-on-search-engine:search-google",
+    "open-on-search-engine:search-stack-overflow",
+    "open-on-search-engine:search-yahoo"
+  ],
+  "repository": "https://github.com/luketherrien/open-on-search-engine",
+  "license": "MIT",
+  "engines": {
+    "atom": ">0.50.0"
+  },
+  "dependencies": {
+  }
+}

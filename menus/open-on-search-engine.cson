@@ -1,0 +1,30 @@
+'menu': [
+  {
+    'label': 'Packages'
+    'submenu': [
+      'label': 'Open On Search Engine'
+      'submenu': [
+        {
+          'label': 'Search DuckDuckGo',
+          'command': 'open-on-search-engine:search-duck-duck-go'
+        },
+        {
+          'label': 'Search Github',
+          'command': 'open-on-search-engine:search-github'
+        },
+        {
+          'label': 'Search Google',
+          'command': 'open-on-search-engine:search-google'
+        },
+        {
+          'label': 'Search Stack Overflow',
+          'command': 'open-on-search-engine:search-stack-overflow'
+        },
+        {
+          'label': 'Search Yahoo',
+          'command': 'open-on-search-engine:search-yahoo'
+        }
+      ]
+    ]
+  }
+]

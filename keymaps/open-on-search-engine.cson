@@ -1,0 +1,2 @@
+'.editor':
+  'ctrl-alt-cmd-g': 'open-on-search-engine:search-google'
