@@ -18,6 +18,6 @@ module.exports =
 
     sanitize: ->
       # get rid of multiple spaces
-      @text.replace /\s+/g, ' '
+      @text = @text.replace /\s+/g, ' '
       # replace spaces with pluses
-      @text.replace /\s/g, '+'
+      @text = @text.replace /\s/g, '+'
